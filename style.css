@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header .container-fluid{
+    background-color: rgb(38, 37, 37);
+}
+.navbar .nav-link{
+    color:white;
+    padding-right: 10px;
+}
+.navbar .nav-link:hover{
+    color:rgb(212, 94, 10);
+}
+header .container{
+    margin-top: 150px;
+    font-weight: 700;
+}
+header .container h5{
+   margin-right: 100px;
+}
+header .container img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.about{
+    margin-top: 70px;
+    height: 60vh;
+    background-color: black;
+    color:white;
+    padding-top: 60px;
+}
+.about img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgb(212, 94, 10);
+}
+.services{
+    margin-top: 80px;
+  
+}
+.services .container{
+   margin-left: 130px;
+}
+
+.services .container .service1{
+    height: 350px;
+    width: 280px;
+    margin: 20px;
+    text-align: left;
+}
+.contact{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.contact .con{
+    text-align: left;
+
+}
+.contact .con i{
+    background-color:rgb(212, 94, 10) ;
+    color:white;
+    padding: 8px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Adjustments for tablet layout */
+    header .container {
+      margin-top: 100px;
+    }
+    .about {
+      height: 45%;
+      padding-top: 20px;
+      
+    }
+  }
+  
+
+  @media only screen and (max-width: 767px) {
+    
+    header .container {
+      margin-top: 70px;
+    }
+    header .container img {
+        position: relative;
+        top: 30px; 
+      }
+    .about {
+      height: 100%;
+      width:100%;
+    }
+    .about img{
+        position: relative;
+        bottom: 50px; 
+    }
+    .services .container {
+      margin-left: 40px;
+    }
+    .contact .con {
+      text-align: center;
+    }
+    .contact .con i {
+      padding: 5px;
+    }
+  }
